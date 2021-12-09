@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+div.all{
+    width: 350px;
+    margin-left: 40%;
+    margin-top: 5%;
+    border: 5px solid rgb(180, 126, 126);
+    border-radius: 10px;
+    background: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?size=626&ext=jpg);
+    position: absolute;
+}
+
+h1{
+    color: rgb(194, 49, 49);
+    text-align: center;
+}
+
+#input {
+    text-align: center;
+    margin-left: 55px;
+    background-color: rgb(235, 198, 198);
+    border: 0;
+    height: 28px;
+}
+
+#btn {
+    background-color: rgb(235, 198, 198);
+    color: rgb(156, 75, 75);
+    border: 0;
+    height: 30px;
+}
+
+#output{
+    margin-left: 40px;
+    color: rgb(124, 65, 65);
+    margin-bottom: 20px;
+}
+
+.buttons img{
+    width: 25px;
+    height: 25px;
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: antiquewhite;
+    margin-top: 3%;
+}
+.active{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgb(151, 156, 152);
+    margin-top: 3%;
+}
